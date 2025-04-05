@@ -18,7 +18,7 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
     >
       <div className={styles.content}>
         <div className={styles.logoWrapper}>
-          <img
+          <Image
             src={project.logo}
             alt={`${project.title} logo`}
             width={24}
