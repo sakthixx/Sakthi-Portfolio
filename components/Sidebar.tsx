@@ -7,7 +7,6 @@ import {
   VscGithubAlt,
   VscCode,
   VscFiles,
-  VscEdit,
 } from 'react-icons/vsc';
 
 import styles from '@/styles/Sidebar.module.css';
