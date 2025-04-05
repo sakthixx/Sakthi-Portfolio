@@ -2,10 +2,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { useState } from 'react';
 import { VscChevronRight } from 'react-icons/vsc';
-
 import styles from '@/styles/Explorer.module.css';
-import path from 'path';
-import { icons } from 'lucide-react';
 
 const explorerItems = [
   {
