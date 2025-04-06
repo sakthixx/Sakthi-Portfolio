@@ -25,9 +25,13 @@ const ArticlesPage = ({ articles }: ArticlesPageProps) => {
         where I share my insights to the people out there.
       </p>
       <div className={styles.container}>
-        {Array.isArray(articles) ? articles.map((article) => (
-          <ArticleCard key={article.id} article={article} />
-        )): [}}
+       {Array.isArray(articles) ? (
+          articles.map((article) => (
+            <ArticleCard key={article.id} article={article} />
+          ))
+        ) : (
+          <></>
+        )}
       </div>
     </div>
   );
